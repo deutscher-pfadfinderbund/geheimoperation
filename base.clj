@@ -7,8 +7,9 @@
   [:link {:rel "stylesheet" :href "resources/bootstrap.min.css"}]
   [:script {:src "shrug.js" :type "text/javascript"}]
   [:title "👋"]]
- [:body.container
-  [:h1 "👋"]
-  [:form.form {:onsubmit "event.preventDefault(); checkForm();"}
-   [:div.form-group
-    [:input#huhu.form-control {:placeholder placeholder}]]]]]
+ [:body
+  [:div.container.pt-5
+   [:h1 "👋"]
+   [:form.form {:onsubmit "event.preventDefault(); checkForm();"}
+    [:div.form-group
+     [:input#huhu.form-control {:placeholder placeholder}]]]]]]
